@@ -1,0 +1,7 @@
+b = float(input('b= '))
+q = float(input('q= '))
+n = int(input('n= '))
+bn = b*(q**(n-1))
+s = (b*(q**n-1))/(q-1)
+print(bn)
+print(s)
